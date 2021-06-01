@@ -1,0 +1,33 @@
+.field-control {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.field-control__input {
+    padding: .75em 1em;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--primary-dark);
+    width: 100%;
+    color: var(--secondary-base);
+}
+
+.field-control__input::placeholder {
+    color: var(--primary-base);
+}
+
+.field-control__input:focus {
+    border: 1px solid var(--secondary-base);
+    outline: none;
+}
+
+textarea.field-control__input {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+    .field-control__input {
+        max-width: max-content;
+    }
+}

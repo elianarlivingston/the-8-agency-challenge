@@ -1,0 +1,5 @@
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  transition: all 1s ease-in-out;
+}

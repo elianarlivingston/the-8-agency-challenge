@@ -1,0 +1,56 @@
+.g-contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-base);
+    color: var(--secondary-base);
+}
+
+.g-contact__content {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g-contact__info {
+    padding-top: var(--header);
+    max-width: 780px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.g-contact__map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 40vh;
+    height: 100%;
+    background-image: url('https://media.discordapp.net/attachments/756337311217746003/848981986198290462/unknown.png?width=535&height=613');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 640px) {
+    .g-contact {
+        flex-direction: row;
+    }
+
+    .g-contact__map {
+        width: 40%;
+        min-height: 100vh;
+        height: 100%;
+    }
+
+    .g-contact__content  {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .g-contact__content > * {
+        width: 45%;
+    }
+}

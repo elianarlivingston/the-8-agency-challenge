@@ -1,0 +1,26 @@
+.m-sidebar {
+    width: var(--sidebar);
+    border-radius: 3px;
+    position: fixed;
+    left: 1rem;
+    top: var(--header);
+    box-shadow: var(--shadow);
+    background-color: var(--secondary-base);
+    transition: background .2s ease;
+}
+
+.m-sidebar__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.m-sidebar__item {
+    padding: .5rem 1.5rem;
+}
+
+.m-sidebar__item:hover,
+.m-sidebar__item:active {
+    background-color: var(--secondary-dark);
+    transition: background .2s ease;
+}

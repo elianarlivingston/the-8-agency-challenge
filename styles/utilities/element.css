@@ -1,0 +1,23 @@
+.is-text-decoration-none {
+    text-decoration: none;
+}
+
+.is-text-center {
+    text-align: center;
+}
+
+.is-text-uppercase {
+    text-transform: uppercase;
+}
+
+.is-text-white {
+    color: var(--secondary-base);
+}
+
+.is-text-normal {
+    font-style: normal;
+}
+
+.is-break-all {
+    text-overflow: break-all;
+}

@@ -1,0 +1,15 @@
+.g-team {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: var(--header);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-base);
+}
+
+.g-team__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-team), 1fr));
+    gap: 2rem;
+}

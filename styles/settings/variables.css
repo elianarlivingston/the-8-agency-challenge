@@ -1,0 +1,48 @@
+:root {
+    /* COLORS */
+    --primary-base: #443D5B;
+    --primary-dark: #302A40;
+    --secondary-base: #FFFFFF;
+    --secondary-dark: #e0e0e0;
+
+    /* LAYOUT */
+    --max-width: 1280px;
+
+    --spacing-xs: .5em;
+    --spacing-s: 1em;
+    --spacing-m: 1.5em;
+    --spacing-lg: 2em;
+    --spacing-xl: 3em;
+    --spacing-2xl: 5em;
+
+    --header: 3rem;
+    --sidebar: 12rem;
+    --card-project: 40rem;
+    --card-team: 18rem;
+
+    /* TYPOGRAPHY */
+    /* family */
+    --font-family: 'Montserrat', sans-serif;
+
+    /* size */
+    --base: 1rem;
+    --ratio: 1.333;
+
+    --heading-3: calc(var(--base) * var(--ratio));
+    --heading-2: calc(var(--heading-3) * var(--ratio));
+    --heading-1: calc(var(--heading-2) * var(--ratio));
+    --heading-base: var(--base);
+
+    --line-height: 1.5;
+
+    /* Z-INDEZ SCALE */
+    --z-0: 0;
+    --z-1: 1;
+    --z-2: 2;
+    --z-3: 3;
+    --z-4: 4;
+    --z-5: 5;
+
+    /* SHADOW */
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}

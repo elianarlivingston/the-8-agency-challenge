@@ -1,0 +1,71 @@
+/* DISPLAY */
+.is-hidden {
+    display: none;
+}
+
+.is-flex {
+    display: flex;
+}
+
+.is-flex-col {
+    flex-direction: column;
+}
+
+.is-justify-center {
+    justify-content: center;
+}
+
+.is-justify-end {
+    justify-content: flex-end;
+}
+
+.is-justify-between {
+    justify-content: space-between;
+}
+
+.is-items-center {
+    align-items: center;
+}
+
+.is-gap-4 {
+    gap: 1rem;
+}
+
+/* WIDTH AND HEIGHT */
+.is-w-full {
+    width: 100%;
+}
+
+.is-w-40 {
+    width: 40%;
+}
+
+.is-max-w-40 {
+    width: 100%;
+    max-width: 40rem;
+}
+
+/* SPACING */
+.is-margin-0 {
+    margin: 0;
+}
+
+.is-margin-y-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.is-padding-x-12 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.is-padding-b-8 {
+    padding-bottom: 2rem;
+}
+
+/* Z-INDEX */
+
+.is-z-20 {
+    z-index: 20;
+}
